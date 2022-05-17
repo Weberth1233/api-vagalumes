@@ -1,0 +1,6 @@
+framework module Pods_Api_Vagalumes {
+  umbrella header "Pods-Api-Vagalumes-umbrella.h"
+
+  export *
+  module * { export * }
+}

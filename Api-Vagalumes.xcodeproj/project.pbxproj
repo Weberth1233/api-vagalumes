@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573BDF56283D0AAF0099F227 /* Noticia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BDF55283D0AAF0099F227 /* Noticia.swift */; };
 		573C65752833C95900B03A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C65742833C95900B03A83 /* AppDelegate.swift */; };
 		573C65772833C95900B03A83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C65762833C95900B03A83 /* SceneDelegate.swift */; };
 		573C65792833C95900B03A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C65782833C95900B03A83 /* ViewController.swift */; };
 		573C657C2833C95900B03A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C657A2833C95900B03A83 /* Main.storyboard */; };
 		573C657E2833C95B00B03A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573C657D2833C95B00B03A83 /* Assets.xcassets */; };
 		573C65812833C95B00B03A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C657F2833C95B00B03A83 /* LaunchScreen.storyboard */; };
-		573C658F2833D29800B03A83 /* Noticias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C658E2833D29800B03A83 /* Noticias.swift */; };
 		F810D17F9177E5ADCC95F824 /* Pods_Api_Vagalumes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		573BDF55283D0AAF0099F227 /* Noticia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noticia.swift; sourceTree = "<group>"; };
 		573C65712833C95900B03A83 /* Api-Vagalumes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Api-Vagalumes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		573C65742833C95900B03A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		573C65762833C95900B03A83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		573C657D2833C95B00B03A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		573C65802833C95B00B03A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		573C65822833C95B00B03A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		573C658E2833D29800B03A83 /* Noticias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noticias.swift; sourceTree = "<group>"; };
 		67475AB656AF9F041DEADF83 /* Pods-Api-Vagalumes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Vagalumes.release.xcconfig"; path = "Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes.release.xcconfig"; sourceTree = "<group>"; };
 		814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Vagalumes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C265BF61CDB6A85647C0CCDF /* Pods-Api-Vagalumes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Vagalumes.debug.xcconfig"; path = "Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,6 +52,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		573BDF5B283D173A0099F227 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		573BDF5C283D17580099F227 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		573C65682833C95900B03A83 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +87,9 @@
 		573C65732833C95900B03A83 /* Api-Vagalumes */ = {
 			isa = PBXGroup;
 			children = (
-				573C658D2833D28700B03A83 /* model */,
+				573BDF5C283D17580099F227 /* ViewModels */,
+				573BDF5B283D173A0099F227 /* Repository */,
+				573C658D2833D28700B03A83 /* Model */,
 				573C65742833C95900B03A83 /* AppDelegate.swift */,
 				573C65762833C95900B03A83 /* SceneDelegate.swift */,
 				573C65782833C95900B03A83 /* ViewController.swift */,
@@ -85,12 +101,12 @@
 			path = "Api-Vagalumes";
 			sourceTree = "<group>";
 		};
-		573C658D2833D28700B03A83 /* model */ = {
+		573C658D2833D28700B03A83 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				573C658E2833D29800B03A83 /* Noticias.swift */,
+				573BDF55283D0AAF0099F227 /* Noticia.swift */,
 			);
-			path = model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7F00190F9C4C4B875277C42F /* Pods */ = {
@@ -219,7 +235,7 @@
 				573C65792833C95900B03A83 /* ViewController.swift in Sources */,
 				573C65752833C95900B03A83 /* AppDelegate.swift in Sources */,
 				573C65772833C95900B03A83 /* SceneDelegate.swift in Sources */,
-				573C658F2833D29800B03A83 /* Noticias.swift in Sources */,
+				573BDF56283D0AAF0099F227 /* Noticia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

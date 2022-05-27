@@ -20,5 +20,53 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E634D1AA-4509-4673-8478-00EB34C75A3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Api-Vagalumes/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E634D1AA-4509-4673-8478-00EB34C75A3E - 305fa434f30d69b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Api_Vagalumes.ViewController.cliquei(Any) -&gt; ()"
+                  moduleName = "Api-Vagalumes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aluno/Documents/App-Vagalume/Api-Vagalumes/Api-Vagalumes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "478">
+               </Location>
+               <Location
+                  uuid = "E634D1AA-4509-4673-8478-00EB34C75A3E - 8af66730ef43128c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Api_Vagalumes.Noticias, Alamofire.AFError&gt;) -&gt; () in Api_Vagalumes.ViewController.cliquei(Any) -&gt; ()"
+                  moduleName = "Api-Vagalumes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Aluno/Documents/App-Vagalume/Api-Vagalumes/Api-Vagalumes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

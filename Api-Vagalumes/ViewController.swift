@@ -17,11 +17,38 @@ class ViewController: UIViewController {
     }
 
     @IBAction func cliquei(_ sender: Any) {
+        var sURL:String!
         
-        let request = AF.request("https://www.vagalume.com.br/news/index.js")
-        request.responseJSON{(data) in
-            print(data)
-        }
-    }
+        sURL = "https://www.vagalume.com.br/news/index.js"
+        
+        let serializer = DataResponseSerializer(emptyResponseCodes: Set([200,204, 205]))
+        
+        var sampleRequest = URLRequest(url: URL(string: sURL)!)
+        
+        AF.request(sampleRequest).uploadProgress{
+            progress in
+        }.response(responseSerializer: serializer){
+                response in
+            if(response.error == nil){
+                var responseString: String!
+                responseString = ""
+                if(response.data != nil){
+                    responseString = String(bytes: response.data!, encoding: .utf8)
+                }else{
+                    responseString = response.response?.description
+                }
+                print(responseString ?? "")
+                print(response.response?.statusCode)
+                
+                do{
+                    let resposta = try JSONDecoder().decode(Welcome.self, from: response.data!)
+                    let data = resposta.news
+                    print(data[0].images)
+                }catch{
+                    print(error)
+                }
+                }
+            }
+            }
 }
 

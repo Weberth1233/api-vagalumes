@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573BDF56283D0AAF0099F227 /* Noticia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BDF55283D0AAF0099F227 /* Noticia.swift */; };
+		573C65752833C95900B03A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C65742833C95900B03A83 /* AppDelegate.swift */; };
+		573C65772833C95900B03A83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C65762833C95900B03A83 /* SceneDelegate.swift */; };
+		573C65792833C95900B03A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C65782833C95900B03A83 /* ViewController.swift */; };
+		573C657C2833C95900B03A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C657A2833C95900B03A83 /* Main.storyboard */; };
+		573C657E2833C95B00B03A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573C657D2833C95B00B03A83 /* Assets.xcassets */; };
+		573C65812833C95B00B03A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573C657F2833C95B00B03A83 /* LaunchScreen.storyboard */; };
+		574A9FBB28464DAE00202A94 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FBA28464DAE00202A94 /* Parse.swift */; };
+		57761F13284F7DAA00279CEF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57761F12284F7DAA00279CEF /* NewsCell.swift */; };
+		57761F16284F87DC00279CEF /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57761F15284F87DC00279CEF /* DetalhesViewController.swift */; };
+		F810D17F9177E5ADCC95F824 /* Pods_Api_Vagalumes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		573BDF55283D0AAF0099F227 /* Noticia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noticia.swift; sourceTree = "<group>"; };
+		573C65712833C95900B03A83 /* Api-Vagalumes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Api-Vagalumes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		573C65742833C95900B03A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		573C65762833C95900B03A83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		573C65782833C95900B03A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		573C657B2833C95900B03A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		573C657D2833C95B00B03A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573C65802833C95B00B03A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		573C65822833C95B00B03A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574A9FBA28464DAE00202A94 /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		57761F12284F7DAA00279CEF /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		57761F15284F87DC00279CEF /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+		67475AB656AF9F041DEADF83 /* Pods-Api-Vagalumes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Vagalumes.release.xcconfig"; path = "Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes.release.xcconfig"; sourceTree = "<group>"; };
+		814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Vagalumes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C265BF61CDB6A85647C0CCDF /* Pods-Api-Vagalumes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Vagalumes.debug.xcconfig"; path = "Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573C656E2833C95900B03A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F810D17F9177E5ADCC95F824 /* Pods_Api_Vagalumes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077B5404D740A7AB03E0779C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573BDF5B283D173A0099F227 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		573BDF5C283D17580099F227 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				574A9FBA28464DAE00202A94 /* Parse.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		573C65682833C95900B03A83 = {
+			isa = PBXGroup;
+			children = (
+				573C65732833C95900B03A83 /* Api-Vagalumes */,
+				573C65722833C95900B03A83 /* Products */,
+				7F00190F9C4C4B875277C42F /* Pods */,
+				077B5404D740A7AB03E0779C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		573C65722833C95900B03A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				573C65712833C95900B03A83 /* Api-Vagalumes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		573C65732833C95900B03A83 /* Api-Vagalumes */ = {
+			isa = PBXGroup;
+			children = (
+				573BDF5C283D17580099F227 /* ViewModels */,
+				573BDF5B283D173A0099F227 /* Repository */,
+				573C658D2833D28700B03A83 /* Model */,
+				573C65742833C95900B03A83 /* AppDelegate.swift */,
+				573C65762833C95900B03A83 /* SceneDelegate.swift */,
+				573C65782833C95900B03A83 /* ViewController.swift */,
+				573C657A2833C95900B03A83 /* Main.storyboard */,
+				573C657D2833C95B00B03A83 /* Assets.xcassets */,
+				573C657F2833C95B00B03A83 /* LaunchScreen.storyboard */,
+				573C65822833C95B00B03A83 /* Info.plist */,
+				57761F12284F7DAA00279CEF /* NewsCell.swift */,
+				57761F15284F87DC00279CEF /* DetalhesViewController.swift */,
+			);
+			path = "Api-Vagalumes";
+			sourceTree = "<group>";
+		};
+		573C658D2833D28700B03A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				573BDF55283D0AAF0099F227 /* Noticia.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F00190F9C4C4B875277C42F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C265BF61CDB6A85647C0CCDF /* Pods-Api-Vagalumes.debug.xcconfig */,
+				67475AB656AF9F041DEADF83 /* Pods-Api-Vagalumes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		573C65702833C95900B03A83 /* Api-Vagalumes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573C65852833C95B00B03A83 /* Build configuration list for PBXNativeTarget "Api-Vagalumes" */;
+			buildPhases = (
+				ACA4BC87AC93FA9C5E494241 /* [CP] Check Pods Manifest.lock */,
+				573C656D2833C95900B03A83 /* Sources */,
+				573C656E2833C95900B03A83 /* Frameworks */,
+				573C656F2833C95900B03A83 /* Resources */,
+				0ACE7A4CE67A8C5A62568140 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Api-Vagalumes";
+			productName = "Api-Vagalumes";
+			productReference = 573C65712833C95900B03A83 /* Api-Vagalumes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573C65692833C95900B03A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					573C65702833C95900B03A83 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 573C656C2833C95900B03A83 /* Build configuration list for PBXProject "Api-Vagalumes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573C65682833C95900B03A83;
+			productRefGroup = 573C65722833C95900B03A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				573C65702833C95900B03A83 /* Api-Vagalumes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		573C656F2833C95900B03A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573C65812833C95B00B03A83 /* LaunchScreen.storyboard in Resources */,
+				573C657E2833C95B00B03A83 /* Assets.xcassets in Resources */,
+				573C657C2833C95900B03A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACE7A4CE67A8C5A62568140 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACA4BC87AC93FA9C5E494241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Api-Vagalumes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573C656D2833C95900B03A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57761F16284F87DC00279CEF /* DetalhesViewController.swift in Sources */,
+				573C65792833C95900B03A83 /* ViewController.swift in Sources */,
+				574A9FBB28464DAE00202A94 /* Parse.swift in Sources */,
+				573C65752833C95900B03A83 /* AppDelegate.swift in Sources */,
+				573C65772833C95900B03A83 /* SceneDelegate.swift in Sources */,
+				57761F13284F7DAA00279CEF /* NewsCell.swift in Sources */,
+				573BDF56283D0AAF0099F227 /* Noticia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		573C657A2833C95900B03A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573C657B2833C95900B03A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		573C657F2833C95B00B03A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				573C65802833C95B00B03A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		573C65832833C95B00B03A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		573C65842833C95B00B03A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		573C65862833C95B00B03A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C265BF61CDB6A85647C0CCDF /* Pods-Api-Vagalumes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Api-Vagalumes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unitins.Api-Vagalumes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		573C65872833C95B00B03A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67475AB656AF9F041DEADF83 /* Pods-Api-Vagalumes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Api-Vagalumes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "unitins.Api-Vagalumes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573C656C2833C95900B03A83 /* Build configuration list for PBXProject "Api-Vagalumes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573C65832833C95B00B03A83 /* Debug */,
+				573C65842833C95B00B03A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		573C65852833C95B00B03A83 /* Build configuration list for PBXNativeTarget "Api-Vagalumes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573C65862833C95B00B03A83 /* Debug */,
+				573C65872833C95B00B03A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573C65692833C95900B03A83 /* Project object */;
+}

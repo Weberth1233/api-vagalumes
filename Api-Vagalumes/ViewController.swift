@@ -45,7 +45,22 @@ class ViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = table.dequeueReusableCell(withIdentifier: "cell", for:indexPath)
         cell.textLabel?.text = news[indexPath.row].featured
+        var url:String =  "https://www.vagalume.com.br";
+        url.append(news[indexPath.row].images[1]);
+        cell.imageView?.image = converterUrlImagemEmUiImagem(url: url);
         return cell
+    }
+    
+    func converterUrlImagemEmUiImagem(url:String) -> UIImage {
+        let imageUrlString = url;
+
+        let imageUrl = URL(string: imageUrlString)!;
+
+        let imageData = try! Data(contentsOf: imageUrl);
+
+        let image = UIImage(data: imageData);
+        
+        return image!;
     }
     
 //    @IBAction func cliquei(_ sender: Any) {

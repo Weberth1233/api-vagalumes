@@ -17,6 +17,7 @@
 		574A9FBB28464DAE00202A94 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574A9FBA28464DAE00202A94 /* Parse.swift */; };
 		57761F13284F7DAA00279CEF /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57761F12284F7DAA00279CEF /* NewsCell.swift */; };
 		57761F16284F87DC00279CEF /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57761F15284F87DC00279CEF /* DetalhesViewController.swift */; };
+		57C05535284F9FCC00338EEB /* StringEmLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C05534284F9FCC00338EEB /* StringEmLink.swift */; };
 		F810D17F9177E5ADCC95F824 /* Pods_Api_Vagalumes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		574A9FBA28464DAE00202A94 /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
 		57761F12284F7DAA00279CEF /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		57761F15284F87DC00279CEF /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+		57C05534284F9FCC00338EEB /* StringEmLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEmLink.swift; sourceTree = "<group>"; };
 		67475AB656AF9F041DEADF83 /* Pods-Api-Vagalumes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Vagalumes.release.xcconfig"; path = "Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes.release.xcconfig"; sourceTree = "<group>"; };
 		814EB481E706F3D5D818F9AB /* Pods_Api_Vagalumes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Vagalumes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C265BF61CDB6A85647C0CCDF /* Pods-Api-Vagalumes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Vagalumes.debug.xcconfig"; path = "Target Support Files/Pods-Api-Vagalumes/Pods-Api-Vagalumes.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				574A9FBA28464DAE00202A94 /* Parse.swift */,
+				57C05534284F9FCC00338EEB /* StringEmLink.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				573C65792833C95900B03A83 /* ViewController.swift in Sources */,
 				574A9FBB28464DAE00202A94 /* Parse.swift in Sources */,
 				573C65752833C95900B03A83 /* AppDelegate.swift in Sources */,
+				57C05535284F9FCC00338EEB /* StringEmLink.swift in Sources */,
 				573C65772833C95900B03A83 /* SceneDelegate.swift in Sources */,
 				57761F13284F7DAA00279CEF /* NewsCell.swift in Sources */,
 				573BDF56283D0AAF0099F227 /* Noticia.swift in Sources */,

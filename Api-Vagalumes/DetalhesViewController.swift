@@ -9,18 +9,34 @@ import UIKit
 
 class DetalhesViewController: UIViewController {
     
-    @IBOutlet weak var imageApi: UIImageView!
-    @IBOutlet weak var texto: UILabel!
-    var dadoRecebido = String()
-    var image = String()
     
+    @IBOutlet weak var subtitulo: UILabel!
+    @IBOutlet weak var imagem: UIImageView!
+    @IBOutlet weak var link: UITextView!
+    @IBOutlet weak var detalhes: UILabel!
+    
+    var tituloRecebido = String()
+    var imagemRecebida = String()
+    var subtituloRecebido = String()
+    var detalhesRecebido = String()
+    var linkRecebido = String();
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.texto.text = self.dadoRecebido
+        title = self.tituloRecebido
+        subtitulo.text = self.subtituloRecebido
+        detalhes.text = self.detalhesRecebido
         var url:String =  "https://www.vagalume.com.br";
-        url.append(image);
-        imageApi.image = converterUrlImagemEmUiImagem(url: url);
+        url.append(imagemRecebida);
+        imagem.image = converterUrlImagemEmUiImagem(url: url);
+        subtitulo.text = subtituloRecebido
+        
+        let path:String = linkRecebido
+        link.text = link.text + " " + linkRecebido
+        let text:String = link.text
+        let attributedString = NSAttributedString.makeHyperLink(for: path, in: text, as: linkRecebido)
+        link.attributedText = attributedString
+        
         // Do any additional setup after loading the view.
     }
     
